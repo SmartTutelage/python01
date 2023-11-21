@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Python Programming",
+        "details": [
+            "Why Python?",
+            "Key features of Python",
+            "Getting started with Python",
+            "Installing necessary applications"
+        ],
+        "duration": 2,
+        "level": "Beginner"
+    },
+    {
+        "id": 2,
+        "title": "Python Programming Basics",
+        "details": [
+            "The Python 'Hello World'",
+            "Variables and Data types in Python",
+            "Basic Operations in Python",
+            "Code commenting in Python",
+            "Input and Output in Python"
+        ],
+        "duration": 3,
+        "level": "Beginner"
+    },
+    {
+        "id": 3,
+        "title": "Strings and String manipulations",
+        "details": [
+            "Creating Strings",
+            "String Operations",
+            "String indexing and Slicing",
+            "String Methods",
+            "String Formatting",
+            "Escape characters"
+        ],
+        "duration": 3,
+        "level": "Beginner"
+    },
+    {
+        "id": 4,
+        "title": "Program control flow in Python",
+        "details": [
+            "Introduction to Program control flow",
+            "Conditional statement in Python",
+            "Loops and control flow in Python",
+            "Exception handling in Python"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 5,
+        "title": "Lists in Python Programming",
+        "details": [
+            "Introduction to Lists",
+            "Creating and accessing lists",
+            "List operations",
+            "Iterating through Lists",
+            "List Functions",
+            "Nested Functions"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 6,
+        "title": "Tuples in Python Programming",
+        "details": [
+            "Introduction to Tuples",
+            "Creating and accessing Tuples",
+            "Tuple operations",
+            "Iterating through Tuples",
+            "Tuple Functions",
+            "Advantages of Tuples"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 7,
+        "title": "Dictionaries in Python Programming",
+        "details": [
+            "Introduction to Dictionaries",
+            "Creating and Initializing Dictionaries",
+            "Accessing and Modifying Dictionaries",
+            "Dictionary Methods",
+            "Dictionaries Comprehension",
+            "Nested Dictionaries"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 8,
+        "title": "Sets in Python Programming",
+        "details": [
+            "Introduction to Sets",
+            "Creating and Initializing Sets",
+            "Basic Set operations",
+            "Set Methods",
+            "Sets Comprehension"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 9,
+        "title": "Functions in Python",
+        "details": [
+            "Introduction to Functions",
+            "Creating and Defining functions",
+            "Calling functions",
+            "Return statement",
+            "Scope and variable lifetime",
+            "Docstrings and Comments",
+            "Lambda Function"
+        ],
+        "duration": 5,
+        "level": "Beginner"
+    },
+    {
+        "id": 10,
+        "title": "File Handling in Python",
+        "details": [
+            "Introduction to File handling",
+            "Opening and Closing Files",
+            "Reading from Files",
+            "Writing to Files",
+            "Appending Files",
+            "File Handling Best Practices"
+        ],
+        "duration": 4,
+        "level": "Beginner"
+    },
+    {
+        "id": 11,
+        "title": "Handling Errors and Exception in Python",
+        "details": [
+            "Introduction to Error handling",
+            "Types of errors in Python",
+            "Exception handling in Python",
+            "Raising Exception",
+            "Exception hierarchy",
+            "Custom Exceptions",
+            "Logging Exceptions"
+        ],
+        "duration": 3,
+        "level": "Beginner"
+    },
+    {
+        "id": 12,
+        "title": "Introduction to Object Oriented  Programming",
+        "details": [
+            "Introduction to Object Oriented Programming",
+            "Key Concepts of OOP(Classes & Objects, Encapsulation, Inheritance, Polymorphism)",
+            "Creating and Using classes",
+            "Constructors and Destructors",
+            "Class and Instance Variables",
+            "Method Overloading and Overriding"
+        ],
+        "duration": 5,
+        "level": "Beginner"
+    }
+    
+]

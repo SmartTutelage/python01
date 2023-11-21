@@ -1,0 +1,26 @@
+.playfair{
+    font-family: 'Playfair Display', serif;
+}
+nav a:hover{
+    font-weight: bolder;
+}
+.hero{
+    width: 100%;
+    background: url("/assets/images/python-11.jpg");
+    max-height: 280px;
+}
+.accordion-header{
+    cursor: pointer;
+}
+.header-active{
+    background-color: skyblue;
+    color: white;
+    font-weight: normal;
+}
+.active{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+

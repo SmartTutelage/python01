@@ -56,3 +56,24 @@ fetch('data.json')
   })
   .catch(error => console.error('Error fetching data:', error));
 
+// Countdown timer
+const countdown = () => {  
+    const date = new Date("4 Dec 2023");
+    const today = new Date()
+
+        let dateDiff = Math.round((date - today)/1000)
+        let days = Math.floor(dateDiff/86400)
+        let hrs = Math.floor(((dateDiff/86400)-days)*24)
+        let mins = Math.floor(((((dateDiff/86400)-days)*24)-hrs)*60)
+        let secs = Math.round(((((((dateDiff/86400)-days)*24)-hrs)*60)-mins)*60)
+
+        countDown.innerHTML = `
+            <h1 class=" text-5xl font-bold lg:text-5xl text-white" id="count-down">${days} : ${hrs} : ${mins} : ${secs}</h1>
+        `
+        return countDown.innerHTML
+  }
+
+ setInterval(() => console.log(countdown()), 1000);
+ 
+// Insertion stage
+    const countDown = document.getElementById("count-down")  

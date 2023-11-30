@@ -48,6 +48,13 @@ const myAccordion = (data) => {
         accordionContainer.appendChild(accordionMain);
     });    
 }
+const timeFormat (time) => {
+    if(time < 10) {
+        return (0${time})
+    }else{
+        return time
+    }
+}
 
 fetch('data.json')
   .then(response => response.json())
@@ -62,10 +69,10 @@ const countdown = () => {
     const today = new Date()
 
         let dateDiff = Math.round((date - today)/1000)
-        let days = Math.floor(dateDiff/86400)
-        let hrs = Math.floor(((dateDiff/86400)-days)*24)
-        let mins = Math.floor(((((dateDiff/86400)-days)*24)-hrs)*60)
-        let secs = Math.round(((((((dateDiff/86400)-days)*24)-hrs)*60)-mins)*60)
+        let days = timeFormat(Math.floor(dateDiff/86400))
+        let hrs = timeFormat(Math.floor(((dateDiff/86400)-days)*24))
+        let mins = timeFormat(Math.floor(((((dateDiff/86400)-days)*24)-hrs)*60))
+        let secs = timeFormat(Math.round(((((((dateDiff/86400)-days)*24)-hrs)*60)-mins)*60))
 
         countDown.innerHTML = `
             <h1 class=" text-5xl font-bold lg:text-5xl text-white" id="count-down">${days} : ${hrs} : ${mins} : ${secs}</h1>

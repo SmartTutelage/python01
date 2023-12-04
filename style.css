@@ -23,4 +23,6 @@ nav a:hover{
 .hide{
     display: none;
 }
-
+.countdown{
+    display: none;
+}
